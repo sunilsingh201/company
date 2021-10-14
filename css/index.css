@@ -1,0 +1,129 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.init-home{
+    
+    overflow: hidden;
+    width: 100%;
+    background-color: #000;
+    height: 100vh;
+}
+.init-left-img,.init-ser-img{
+    height: 80px;
+    width: 80px;
+}
+.init-left-img img,.init-ser-img img{
+    height: auto;
+    width: 100%;
+}
+.init-ser-img img{
+    border: 3px solid #242424;
+    border-radius: 50%;
+    padding: 10%;
+}
+.init-navbar{
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+}
+.init-nav-left{
+    margin-left: -6%;
+    display: flex;
+}
+.init-left-title h3{
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    letter-spacing: 5px;
+}
+.init-left-title p{
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+    letter-spacing: 5px;
+    opacity: 0.6;
+}
+.init-nav-right{
+    margin-left: 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.init-nav-right ul li{
+    list-style-type: none;
+}
+.init-nav-right ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 200;
+}
+.init-home-content{
+    margin:10% 5% 0 5%;
+}
+.init-home-content h3{
+    color:#fff;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    letter-spacing: 8px;
+   
+}
+.init-home-content p{
+    color:#fff;
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+.scroll-down{
+    height: 50px;
+    width: 30px;
+    border: 2px solid #fff;
+    border-radius: 18px;
+}
+.services{
+    background-color: #242526;
+    height: auto;
+    width: 100%;
+    margin-bottom: 50%;
+}
+.init-services-title h3{
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    opacity: 0.6;
+    font-weight: 200;
+    letter-spacing: 5px;
+    font-size: 18px;
+}
+.init-services-title h1{
+    color: #fff;
+    font-weight: 300;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 5px;
+}
+.col{
+    margin: 1%;
+    background-color: #fff;
+    height: auto;
+    width: 100%;
+    border-radius: 8px;
+}
+.col h3{
+    margin-top: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+}
+.init-ser-content{
+    padding: 5%;
+}
+.col p{
+    font-size: 22px;
+    
+    font-weight: 300;
+}
