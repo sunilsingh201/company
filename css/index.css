@@ -250,7 +250,7 @@
   margin-top: 12%;
 }
 .about{
-  background-image: url("/images/hat-back.webp");
+  background-image: url("../images/hat-back.webp");
   height: 830px;
 }
 .init-about-left{
