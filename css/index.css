@@ -250,7 +250,7 @@
   margin-top: 12%;
 }
 .about{
-  background: url("images/hat-back.webp");
+  background-image: url("/images/hat-back.webp");
   height: 830px;
 }
 .init-about-left{
@@ -363,7 +363,7 @@
 .init-help{
   height: 370px;
   width: 900px;
-  background: url("images/oh-stop-it.webp");
+  background: url("/images/oh-stop-it.webp");
   background-size: cover;
   border-radius: 8px;
 }
